@@ -1,0 +1,4 @@
+repository "game-flappy-bird@vitor0321@cloud"
+  path "/"
+    br "/main"
+    co "/main"

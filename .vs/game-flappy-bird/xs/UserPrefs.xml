@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{19797D06-805F-0ACE-7257-CB6436D47BD0}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ControleDificuldade.cs">
+    <Files>
+      <File FileName="Assets/Scripts/InterfaceGameOver.cs" Line="38" Column="36" />
+      <File FileName="Assets/Scripts/Pontuacao.cs" Line="31" Column="17" />
+      <File FileName="Assets/Scripts/Diretor.cs" Line="28" Column="37" />
+      <File FileName="Assets/Scripts/Aviao.cs" Line="12" Column="34" />
+      <File FileName="Assets/Scripts/ControleDificuldade.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="game-flappy-bird" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ControleDificuldade.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a10d9904-669e-49e4-9bb1-a3f84a8c3874" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
