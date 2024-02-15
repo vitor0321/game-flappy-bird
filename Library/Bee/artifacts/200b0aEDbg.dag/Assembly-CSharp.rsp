@@ -381,6 +381,7 @@
 "Assets/Scripts/Obstaculo.cs"
 "Assets/Scripts/Pontuacao.cs"
 "Assets/Scripts/TrilhaSonora.cs"
+"Assets/Scripts/VariavelCompartilhadaFloat.cs"
 -langversion:9.0
 
 /deterministic

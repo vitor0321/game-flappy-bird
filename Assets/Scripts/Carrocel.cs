@@ -5,7 +5,7 @@ using UnityEngine;
 public class Carrocel : MonoBehaviour
 {
     [SerializeField]
-    private float velocidade;
+    private VariavelCompartilhadaFloat velocidade;
 
     private Vector3 posicaoInicial;
     private float tamanhoRealDaImagem;
@@ -21,7 +21,7 @@ public class Carrocel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float deslocamento = Mathf.Repeat(this.velocidade * Time.time, this.tamanhoRealDaImagem);
+        float deslocamento = Mathf.Repeat(this.velocidade.valor * Time.time, this.tamanhoRealDaImagem);
         this.transform.position= this.posicaoInicial + Vector3.left * deslocamento;
     }
 }

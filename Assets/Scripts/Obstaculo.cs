@@ -5,7 +5,7 @@ using UnityEngine;
 public class Obstaculo : MonoBehaviour
 {
     [SerializeField]
-    private float velocidade;
+    private VariavelCompartilhadaFloat velocidade;
     [SerializeField]
     private float variacaoDaPosicaoY;
     private Vector3 posicaoDoAviao;
@@ -25,7 +25,7 @@ public class Obstaculo : MonoBehaviour
 
     private void Update()
     {
-        this.transform.Translate(Vector3.left * this.velocidade * Time.deltaTime);
+        this.transform.Translate(Vector3.left * this.velocidade.valor * Time.deltaTime);
 
         // Se a minha(obstaculo) posicao for menor que a posicao for menor que o do aviao entao add ponto
         if (!this.pontuei && this.transform.position.x < this.posicaoDoAviao.x)

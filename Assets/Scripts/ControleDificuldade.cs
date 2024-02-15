@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class ControleDificuldade : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private float tempoParaDificuldadeMaxima;
+    private float tempoPassado;
+    public float Dificuldade { get; private set;}
 
-    // Update is called once per frame
     void Update()
     {
-        
+        this.tempoPassado += Time.deltaTime;
+
+        //aqui calculamos a porcetagem da dificuldade
+        this.Dificuldade = this.tempoPassado / this.tempoParaDificuldadeMaxima;
+        //aqui limitamos ela até 100%, senão iria passar desse numero
+        this.Dificuldade = Mathf.Min(1, this.Dificuldade);
     }
 }
